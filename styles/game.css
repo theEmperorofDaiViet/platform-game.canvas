@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cinzel-Bold'), url(/font/cinzel_bold.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Mono'), local('PTMono-Regular'), url(/font/pt_mono.woff) format('woff');
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#content {
+    display: inline;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.5em;
+}
+
+.game-data {
+    display: flex;
+}
+
+.level {
+    display: inline;
+    float: left;
+    width: 50%;
+    text-align: left;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 36px;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+
+.lives {
+    display: inline;
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-block-start: 0.75em;
+    margin-block-end: 0.25em;
+}
+
+.heart {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.emptyHeart {
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+
+.notification {
+    text-align: center;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;    
+}
+
+.background { 
+    background: rgb(52, 166, 251);
+    table-layout: fixed;
+    border-spacing: 0;
+}
+.background td { 
+    padding: 0;          
+}
+.lava { 
+    background: rgb(255, 100, 100); 
+}
+.wall { 
+    background: white;   
+}
+
+.actor { 
+    position: absolute;  
+}
+.coin { 
+    background: rgb(241, 229, 89); 
+}
+.player { 
+    background: rgb(64, 64, 64); 
+}
+
+.monster {
+    background: purple
+}
+
+.game {
+    overflow: hidden;
+    max-width: 900px;
+    max-height: 650px;
+    position: relative;
+}
+
+.lost .player {
+    background: rgb(160, 64, 64);
+}
+.won .player {
+    box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}

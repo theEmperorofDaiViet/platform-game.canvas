@@ -100,6 +100,17 @@ There are different kinds of lava:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Usage
+<i>I played the first level of the game to illustrate its features:</i>
+
+<p align="center">
+    <img src="images\example.gif">
+</p>
+
+- At the first two attempts, I fell into the lava.
+- At the third attempt, I successfully collected all the coins to complete the first level.
+- The second level was displayed.
+
+There will be a surprise for you when you complete all levels and win the game! Try to figure it out!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

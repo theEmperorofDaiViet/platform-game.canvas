@@ -32,7 +32,7 @@
 </p>
 
 # About The Project
-Another version using Canvas of the Platfrom Game from chapter 17 of the famous book about JS - "Eloquent JavaScript".
+Another version using Canvas of the original [Platfrom Game](https://github.com/theEmperorofDaiViet/platform-game). It is based on chapter 17 of the famous book about JS - "Eloquent JavaScript", with a few additional features.
 
 ## Built With
 * [![HTML5][HTML5-shield]][HTML5-url]
@@ -81,9 +81,17 @@ As usual, the app should automatically open in a new tab in your browser. It run
 </table>
 
 
-<p>The player's task is to collect the coins while avoiding the lava. A level is completed when all coins have been collected.</p>
+<p>The player's task is to collect the coins while avoiding the lava. A level is completed when all coins have been collected. A level is completed when all coins have been collected. The player starts with 5 <i>lives</i> and lose one life each time they die. When the player is out of lives, the game restarts from the beginning. You can check the player's lives at the top-right corner of the game. The empty heart is the life that the player've lost, while the filled one represents the remainder.</p>
 
 <p>The player can walk around with the left :arrow_left: and right :arrow_right: arrow keys and can jump with the up :arrow_up: arrow. Jumping is a specialty of this game character. It can reach several times its own height and can change direction in midair. This may not be entirely realistic, but it helps give the player the feeling of being in direct control of the on-screen avatar.</p>
+
+There are different kinds of lava:
+  - <b>Normal lava:</b> lava that doesn't move
+  - <b>Horizontally moving lava:</b> lava that move back and forth horizontally
+  - <b>Vertically moving lava:</b> lava that move like vertically moving blobs
+  - <b><i>Dripping</i> lava:</b> vertically moving lava that doesn't bounce back and forth but only moves down, jumping back to its starting position when it hits the floor.
+
+<p>You can pause and unpause the game by pressing the <kbd>Esc</kbd> key.</p>
 
 ## The Technology
 
